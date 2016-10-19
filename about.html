@@ -1,19 +1,74 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
- "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-	<meta charset="UTF-8"></meta>
-		<TITLE>My Web Portfolio Site</title>
+	<meta charset="UTF-8">
+		<TITLE>My Portfolio Web Site</title>
 		<meta name="description" content="My second Web Page: Created from Capella Course">
 	<meta name="author"	content="Gregory Getchell">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/about.css">
-    <link rel="stylesheet" type="text/css" href="css/matrix1.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	</head>
  <body>
- <canvas id="canvas"></canvas>
-	<script>
+     
+     <div class="crossfade">
+            <figure></figure>
+            <figure></figure>
+            <figure></figure>
+            <figure></figure>
+            <figure></figure>
+        </div>
+
+    <div id="share-buttons"> 
+    <a href="http://www.linkedin.com/in/greg-getchell-a133217" target="_blank">
+        <img src="images/linkedin.png" alt="LinkedIn" />
+    </a>
+    <a href="https://plus.google.com/u/0/115066865000810445323" target="_blank">
+        <img src="images/googleplus.png" alt="Google" />
+    </a>
+       
+    <a href="http://www.facebook.com/gregory.getchell" target="_blank">
+    <img src="images/facebook500.png" alt="Facebook" />
+    </a>
+    <a href="https://twitter.com/ggetchell4" target="_blank">
+    <img src="images/twitter.png" alt="Twitter" />
+    </a>
+    <a href="javascript:;" onclick="window.print()">
+    <img src="https://simplesharebuttons.com/images/somacro/print.png" alt="Print" />
+    </a>
+    <a href="https://github.com/ggetchell" target="_self">
+    <img src="images/github.png" alt="GitHub" /></a>   
+    <a href="https://www.meetup.com" target="_blank">
+    <img src="images/meetup.png" alt="Meetup" />
+    </a>
+    <a href="GregsProfessionalResume.pdf" target="_blank">
+    <img src="images/resume-icon-png-1.png" alt="Resume" /></a>
+        </div>
+      
+     <a href="index.html" target="_self"><button class="btn1 btn-large">Home</button></a>
+                  <a href="about.html" target="_self"><button class="btn2 btn-large">About</button></a>
+                  <a href="portfolio.html" target="_self"><button class="btn3 btn-large">Portfolio</button></a>
+                  <a href="contact.html" target="_self"><button class="btn4 btn-large">Contact</button></a>
+                  <a href="/wp" target="_self"><button class="btn5 btn-large">Blog Site</button></a>
+     
+<div>
+     <h1>Greg Getchell's Web Site</h1>
+ </div>
+
+     <div style="width: 90%; height: 7px; background: blue; overflow: hidden; margin-left: 50px; border-radius: 20px;"></div>
+
+    
+<div class="about">
+    <div class="bar">
+    <p><strong>I am a self-taught, self-motivated web developer</strong>. I have always had an interest in programming going back over 15 years ago. I received my first certificate degree in software development from North Eastern University in summer of 2001, it encompassed 10 courses over 8 semesters, 6 were programming courses and 4 were computer courses. I tried to seek employment in programming thereafter but was detered due to lack of experience and just wasn't sure it would be the right job for me.
+       <br /> At the time i was working as an independent agent for xerox repairing copiers, it seemed at the time that perhaps this is what i really wanted to do, considering i took this job in October of 1999 after working for 16 years in the food service industry. Up until 2 years ago i have had two other positions in field service and, was sort of influenced by a friend of mine to learn programming, i began taking courses on sites like Udemy.com, Code Adademy.com, and more recently received a Front End Developers Certificate in February this year from FreeCodeCamp.com. I have experience in HTML CSS3, and some experience in Javascript/jQuery. I am just completing a degree through Capella Education Services in Building Mobil-Friendly Web Experiences, information on course is located on main page. It has given me better experience and perspective in web development. 
+       <br /> I have always been a technical person and self-taught learner, in my early years i have build multiple computer systems from scratch, i would also sell some of the systems to by parts and buil a better computer, i have done have done this for bout 5 years, put it aside for other hobbies, then picked it back up in early 2004. <span class="more">After high school, took to the job market rather than going to college, it seemed that my grades in high school weren't "good enough" as some had told me back then and of course i listened. I worked as a gos jockey, mason for 2 years, carpenter for 2 years etc.... I have been through various trade jobs, but none of them were interesting enough to remain employed in them. Long story short, i have decided that programming is what i really want, and i have become somewhat obssessed with writting code, i will find myself spending hours just trying to get one small code to work and this web portfolio page is one i spent some time on and obssessed over it numerous times as well.
+        Thank You visiting my page and reading this exceedingly long page.  Cheers Mate!!!</span></p></div></div>
+    
+          
+<script src="scripts/home.js"></script>
+     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -22,65 +77,10 @@
   ga('create', 'UA-78050138-2', 'auto');
   ga('send', 'pageview');
 
-</script>	
-<header>
-		<h1>My Portfolio Web Page</h1>
-</header>
-
-    <nav class="site-navigation top-nav fixed-top-nav">
-        <button class="js_toggle-nav">MENU</button>
-		<ul class="menu">
-		              <li><a href="home.html" target="_self">Home</a>
-                  </li>
-                 <li>
-                   <a href="about.html" target="_self">About</a>
-                 </li>
-                 <li>
-                   <a href="portfolio.html" target="_self">Portfolio</a>
-                 </li>
-                 <li>
-                   <a href="contact.html" target="_self">Contact</a>
-                 </li>
-                 <li>
-                    <a href="GregsProfessionalResume.pdf" target="_self">Resume</a></li>
-			<li><a href="http://www.facebook.com/gregory.getchell" target="_self"><i class="fa fa-facebook fa-fw"></i>Facebook</a>			  </li>
-        	<li><a href="http://www.twitter.com/ggetchell4" target="_self"><i class="fa fa-twitter fa-fw"></i>Twitter</a></li>
-        	<li><a href="https://www.linkedin.com/in/greg-getchell-a133217" target="_self"><i class="fa fa-linkedin fa-fw">					</i>LinkedIn</a></li>
-            <li><a href="http://github.com/ggetchell" target="_self"><i class="fa fa-github fa-fw"></i>Github</a></li>
-           </ul>
-        </nav>
-    <!--<nav class="site-navigation1 topnav">
-        <button class="social-nav">Social Sites</button>
-        <ul class="menu2">
-        <li><a href="http://www.facebook.com/gregory.getchell" target="_self"><i class="fa fa-facebook fa-fw"></i>Facebook</a></li>
-        <li><a href="http://www.twitter.com/ggetchell4" target="_self"><i class="fa fa-twitter fa-fw"></i>Twitter</a></li>
-        <li><a href="https://www.linkedin.com/in/greg-getchell-a133217" target="_self"><i class="fa fa-linkedin fa-fw"></i>LinkedIn</a></li>
-            <li><a href="http://github.com/ggetchell" target="_self"><i class="fa fa-github fa-fw"></i>Github</a></li>
-        </ul>
-        </nav>-->
-<div class="about">
-<header class="about">
-    <p><strong>I am a self-taught, self-motivated web developer</strong>. I have always had an interest in programming going back over 15 years ago. I received my first certificate degree in software development from North Eastern University in summer of 2001, it encompassed 10 courses over 8 semesters, 6 were programming courses and 4 were computer courses. I tried to seek employment in programming thereafter but was detered due to lack of experience and just wasn't sure it would be the right job for me.
-       <br> At the time i was working as an independent agent for xerox repairing copiers, it seemed at the time that perhaps this is what i really wanted to do, considering i took this job in October of 1999 after working for 16 years in the food service industry. Up until 2 years ago i have had two other positions in field service and, was sort of influenced by a friend of mine to learn programming, i began taking courses on sites like Udemy.com, Code Adademy.com, and more recently received a Front End Developers Certificate in February this year from FreeCodeCamp.com. I have experience in HTML CSS3, and some experience in Javascript/jQuery. I am just completing a degree through Capella Education Services in Building Mobil-Friendly Web Experiences, information on course is located on main page. It has given me better experience and perspective in web development. 
-       <br> I have always been a technical person and self-taught learner, in my early years i have build multiple computer systems from scratch, i would also sell some of the systems to by parts and buil a better computer, i have done have done this for bout 5 years, put it aside for other hobbies, then picked it back up in early 2004. <span class="more">After high school, took to the job market rather than going to college, it seemed that my grades in high school weren't "good enough" as some had told me back then and of course i listened. I worked as a gos jockey, mason for 2 years, carpenter for 2 years etc.... I have been through various trade jobs, but none of them were interesting enough to remain employed in them. Long story short, i have decided that programming is what i really want, and i have become somewhat obssessed with writting code, i will find myself spending hours just trying to get one small code to work and this web portfolio page is one i spent some time on and obssessed over it numerous times as well.
-        Thank You visiting my page and reading this exceedingly long page.  Cheers Mate!!!</span></p>
-        </header>
-        </div>
-          
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-		<script src="scripts/home.js"></script>
-<script src="scripts/matrix2.js"></script>
-<script >
-$(document).ready(function () {
-    // on-click: toggle the "show menu" class.
-    $('.js_toggle-nav').click(function () { 
-$('.menu').toggle ();    
-    });
-	//$('.social-nav').click(function() {
-	//$('.menu2').toggle();
-	//});
-});
 </script>
+
+    <footer>
+<small>&copy; 2016 by Gregory Getchell</small>
+</footer>
 </body>
 </html>
